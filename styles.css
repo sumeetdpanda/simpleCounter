@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital@1&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F0E9D2;
+}
+
+.counter{
+    font-size: 3rem;
+}
+
+.box {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+.btn {
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    color: black;
+    border-color: #B983FF;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.btn:hover {
+    color: wheat;
+    background-color: #B983FF;
+    border-color: #94DAFF;
+    transition: 0.3s;
+}
